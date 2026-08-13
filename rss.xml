@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>大铭｜DAMING.AI</title>
+    <link>https://daming.ai/</link>
+    <description>判断来自现场，结论接受证据。</description>
+    <language>zh-CN</language>
+    <item>
+      <title>AI 时代的 FDE：一个真实生产项目的四周复盘</title>
+      <link>https://daming.ai/articles/ai-fde-retrospective/</link>
+      <guid>https://daming.ai/articles/ai-fde-retrospective/</guid>
+      <pubDate>Mon, 10 Aug 2026 12:24:44 GMT</pubDate>
+      <description>从 0 到生产，以真实用户旅程检验系统是否真的创造了业务结果。</description>
+    </item>
+    <item>
+      <title>在人人都能 Vibe Coding 的时代，架构师的价值到底是什么？</title>
+      <link>https://daming.ai/articles/vibe-coding-architect/</link>
+      <guid>https://daming.ai/articles/vibe-coding-architect/</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <description>实现变便宜之后，判断、证据与约束为什么变得更贵。</description>
+    </item>
+  </channel>
+</rss>

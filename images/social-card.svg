@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f3efe5"/>
+  <path d="M0 0h26v630H0z" fill="#b8382e"/>
+  <path d="M80 80h1040M80 550h1040" stroke="#191917" stroke-width="2"/>
+  <text x="82" y="150" font-family="serif" font-weight="700" font-size="54" fill="#191917">DAMING.AI</text>
+  <text x="82" y="310" font-family="serif" font-weight="700" font-size="78" fill="#191917">实现正在变便宜。</text>
+  <text x="82" y="410" font-family="serif" font-weight="700" font-size="78" fill="#b8382e">判断、证据与责任没有。</text>
+  <text x="82" y="520" font-family="sans-serif" font-size="26" fill="#57564f">大铭 · AI Agent 开发者 / FDE 实践者</text>
+</svg>
