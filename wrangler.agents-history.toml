@@ -1,0 +1,14 @@
+name = "daming-ai-agents-history"
+account_id = "5a0a8ddcdfceaa4aeaa3fa40c6639d7b"
+compatibility_date = "2026-09-01"
+workers_dev = false
+preview_urls = false
+
+routes = [
+  { pattern = "daming.ai/agents-history", zone_name = "daming.ai" },
+  { pattern = "daming.ai/agents-history/*", zone_name = "daming.ai" }
+]
+
+[assets]
+directory = "./.research/coding-agent-history/deployment/assets"
+not_found_handling = "none"

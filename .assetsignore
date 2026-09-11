@@ -1,0 +1,11 @@
+.git
+.wrangler
+wrangler.toml
+wrangler.agents-history.toml
+.nojekyll
+.assetsignore
+
+# Local research is not part of the public website.
+/.research/
+.gitignore
+.DS_Store
