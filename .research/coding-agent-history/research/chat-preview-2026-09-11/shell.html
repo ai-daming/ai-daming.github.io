@@ -1,0 +1,16 @@
+<!doctype html><html lang="__LANG__"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>__TITLE__ · Chat 预览</title><link rel="stylesheet" href="/preview-assets/style.css"><script defer src="/preview-assets/chat.js"></script></head><body>
+<header class="top"><a class="brand" href="/agents-history/">Coding Agent <span>演化长卷</span></a><span class="preview-label">LOCAL PREVIEW</span><nav><a href="__BASE__">长卷</a><a href="__BASE__months/">月份</a><a href="__BASE__objects/">对象</a><a href="__OTHER__">中 / EN</a><button id="theme" aria-label="切换明暗主题">◐</button></nav></header>
+<main id="paper" class="__VIEW__">__BODY__</main>
+<button id="chat-launch" aria-expanded="false" aria-controls="chat">✦ 与历史对话</button>
+<aside id="chat" hidden aria-label="与历史对话"><header class="chat-head"><div><small>READ · COMPARE · EXPLORE</small><h2>与历史对话</h2></div><button id="chat-close" aria-label="收起聊天">×</button></header>
+<div class="chat-tools"><select id="conversations" aria-label="选择对话"></select><button id="new-chat">＋ 新对话</button><button id="settings-button" aria-label="连接设置">⚙</button></div>
+<details id="settings" open><summary>连接你的模型 <span id="connection-state">尚未配置</span></summary><div class="settings-grid">
+<label>Base URL<input id="base-url" type="url" value="https://api.deepseek.com" placeholder="https://api.example.com/v1" autocomplete="off" spellcheck="false"></label>
+<label>模型名称<input id="model" value="deepseek-v4-flash" placeholder="填写服务商提供的模型 ID" autocomplete="off" spellcheck="false"></label>
+<label>API key<input id="api-key" type="password" placeholder="仅在此标签页中使用" autocomplete="off" spellcheck="false"></label>
+<div class="settings-actions"><button id="apply" class="primary">应用配置</button><button id="clear-key">清空 key</button></div><p>浏览器直接连接你填写的服务。key 不保存到文件或浏览器存储；刷新后需重新填写。发送会使用你的 API 额度。</p>
+</div></details>
+<div id="messages" role="log" aria-live="polite"></div>
+<details id="evidence"><summary>本次参考资料 <span id="evidence-count">尚未选择</span></summary><div id="evidence-list"></div></details>
+<form id="composer"><label class="scope">阅读范围<select id="scope"><option value="related">当前页与相关页面</option><option value="current">仅当前页面</option></select></label><textarea id="question" rows="3" placeholder="比如：Cursor 的自主能力是怎样一步步变化的？" aria-label="你的问题"></textarea><div class="send-row"><button type="button" id="preview-evidence">预览资料</button><span id="status" role="status"></span><button type="button" id="stop" hidden>停止</button><button type="submit" id="send" class="primary">发送 ↑</button></div><p class="composer-note">只发送选中的页面文字与当前会话。不会发送整库文件。</p></form></aside>
+</body></html>

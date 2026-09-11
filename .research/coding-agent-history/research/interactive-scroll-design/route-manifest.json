@@ -1,0 +1,1975 @@
+{
+  "routes": [
+    {
+      "path": "/agents-history/",
+      "file": "index.html",
+      "locale": "zh",
+      "view": "overview",
+      "id": null,
+      "title": "Coding Agent 演化长卷"
+    },
+    {
+      "path": "/agents-history/months/",
+      "file": "months/index.html",
+      "locale": "zh",
+      "view": "all",
+      "id": null,
+      "title": "月份目录 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/",
+      "file": "objects/index.html",
+      "locale": "zh",
+      "view": "catalog",
+      "id": null,
+      "title": "对象目录 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/months/2024-01",
+      "file": "months/2024-01.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2024-01",
+      "title": "2024-01 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2024-02",
+      "file": "months/2024-02.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2024-02",
+      "title": "2024-02 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2024-03",
+      "file": "months/2024-03.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2024-03",
+      "title": "2024-03 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2024-04",
+      "file": "months/2024-04.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2024-04",
+      "title": "2024-04 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2024-05",
+      "file": "months/2024-05.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2024-05",
+      "title": "2024-05 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2024-06",
+      "file": "months/2024-06.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2024-06",
+      "title": "2024-06 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2024-07",
+      "file": "months/2024-07.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2024-07",
+      "title": "2024-07 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2024-08",
+      "file": "months/2024-08.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2024-08",
+      "title": "2024-08 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2024-09",
+      "file": "months/2024-09.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2024-09",
+      "title": "2024-09 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2024-10",
+      "file": "months/2024-10.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2024-10",
+      "title": "2024-10 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2024-11",
+      "file": "months/2024-11.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2024-11",
+      "title": "2024-11 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2024-12",
+      "file": "months/2024-12.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2024-12",
+      "title": "2024-12 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2025-01",
+      "file": "months/2025-01.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2025-01",
+      "title": "2025-01 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2025-02",
+      "file": "months/2025-02.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2025-02",
+      "title": "2025-02 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2025-03",
+      "file": "months/2025-03.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2025-03",
+      "title": "2025-03 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2025-04",
+      "file": "months/2025-04.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2025-04",
+      "title": "2025-04 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2025-05",
+      "file": "months/2025-05.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2025-05",
+      "title": "2025-05 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2025-06",
+      "file": "months/2025-06.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2025-06",
+      "title": "2025-06 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2025-07",
+      "file": "months/2025-07.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2025-07",
+      "title": "2025-07 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2025-08",
+      "file": "months/2025-08.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2025-08",
+      "title": "2025-08 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2025-09",
+      "file": "months/2025-09.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2025-09",
+      "title": "2025-09 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2025-10",
+      "file": "months/2025-10.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2025-10",
+      "title": "2025-10 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2025-11",
+      "file": "months/2025-11.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2025-11",
+      "title": "2025-11 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2025-12",
+      "file": "months/2025-12.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2025-12",
+      "title": "2025-12 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2026-01",
+      "file": "months/2026-01.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2026-01",
+      "title": "2026-01 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2026-02",
+      "file": "months/2026-02.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2026-02",
+      "title": "2026-02 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2026-03",
+      "file": "months/2026-03.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2026-03",
+      "title": "2026-03 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2026-04",
+      "file": "months/2026-04.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2026-04",
+      "title": "2026-04 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2026-05",
+      "file": "months/2026-05.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2026-05",
+      "title": "2026-05 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2026-06",
+      "file": "months/2026-06.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2026-06",
+      "title": "2026-06 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2026-07",
+      "file": "months/2026-07.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2026-07",
+      "title": "2026-07 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2026-08",
+      "file": "months/2026-08.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2026-08",
+      "title": "2026-08 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/months/2026-09",
+      "file": "months/2026-09.html",
+      "locale": "zh",
+      "view": "detail",
+      "id": "2026-09",
+      "title": "2026-09 · Coding Agent 月度演化史"
+    },
+    {
+      "path": "/agents-history/objects/cursor",
+      "file": "objects/cursor.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "cursor",
+      "title": "Cursor 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/copilot",
+      "file": "objects/copilot.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "copilot",
+      "title": "GitHub Copilot 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/claude-code",
+      "file": "objects/claude-code.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "claude-code",
+      "title": "Claude Code 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/codex",
+      "file": "objects/codex.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "codex",
+      "title": "Codex 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/devin",
+      "file": "objects/devin.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "devin",
+      "title": "Devin 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/openhands",
+      "file": "objects/openhands.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "openhands",
+      "title": "OpenHands 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/cline",
+      "file": "objects/cline.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "cline",
+      "title": "Cline 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/windsurf",
+      "file": "objects/windsurf.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "windsurf",
+      "title": "Windsurf 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/replit-agent",
+      "file": "objects/replit-agent.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "replit-agent",
+      "title": "Replit Agent 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/jules",
+      "file": "objects/jules.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "jules",
+      "title": "Jules 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/bolt",
+      "file": "objects/bolt.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "bolt",
+      "title": "Bolt.new 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/lovable",
+      "file": "objects/lovable.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "lovable",
+      "title": "Lovable 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/trae",
+      "file": "objects/trae.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "trae",
+      "title": "TRAE 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/kiro",
+      "file": "objects/kiro.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "kiro",
+      "title": "Kiro 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/goose",
+      "file": "objects/goose.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "goose",
+      "title": "goose 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/gemini-cli",
+      "file": "objects/gemini-cli.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "gemini-cli",
+      "title": "Gemini CLI 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/qwen-code",
+      "file": "objects/qwen-code.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "qwen-code",
+      "title": "Qwen Code 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/antigravity",
+      "file": "objects/antigravity.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "antigravity",
+      "title": "Antigravity 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/codebuddy",
+      "file": "objects/codebuddy.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "codebuddy",
+      "title": "CodeBuddy 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/amp",
+      "file": "objects/amp.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "amp",
+      "title": "Amp 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/agent-hq",
+      "file": "objects/agent-hq.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "agent-hq",
+      "title": "Agent HQ 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/chatgpt-canvas",
+      "file": "objects/chatgpt-canvas.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "chatgpt-canvas",
+      "title": "ChatGPT canvas 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/artifacts",
+      "file": "objects/artifacts.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "artifacts",
+      "title": "Claude Artifacts 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/openclaw",
+      "file": "objects/openclaw.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "openclaw",
+      "title": "OpenClaw 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/cowork",
+      "file": "objects/cowork.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "cowork",
+      "title": "Cowork 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/workbuddy",
+      "file": "objects/workbuddy.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "workbuddy",
+      "title": "WorkBuddy 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/doubao-work",
+      "file": "objects/doubao-work.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "doubao-work",
+      "title": "豆包工作 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/feishu",
+      "file": "objects/feishu.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "feishu",
+      "title": "飞书 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/chatgpt-work",
+      "file": "objects/chatgpt-work.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "chatgpt-work",
+      "title": "ChatGPT Work 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/kimi-code",
+      "file": "objects/kimi-code.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "kimi-code",
+      "title": "Kimi Code 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/claude-managed",
+      "file": "objects/claude-managed.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "claude-managed",
+      "title": "Claude Managed Agents 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/google-managed",
+      "file": "objects/google-managed.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "google-managed",
+      "title": "Google Managed Agents 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/responses-api",
+      "file": "objects/responses-api.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "responses-api",
+      "title": "Responses API / Agents SDK 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/claude-agent-sdk",
+      "file": "objects/claude-agent-sdk.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "claude-agent-sdk",
+      "title": "Claude Agent SDK 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/gpt-family",
+      "file": "objects/gpt-family.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "gpt-family",
+      "title": "GPT / OpenAI 通用模型 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/codex-models",
+      "file": "objects/codex-models.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "codex-models",
+      "title": "Codex 专项模型（2025—） 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/claude-family",
+      "file": "objects/claude-family.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "claude-family",
+      "title": "Claude 模型家族 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/gemini-family",
+      "file": "objects/gemini-family.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "gemini-family",
+      "title": "Gemini 模型家族 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/deepseek-family",
+      "file": "objects/deepseek-family.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "deepseek-family",
+      "title": "DeepSeek 模型家族 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/qwen-family",
+      "file": "objects/qwen-family.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "qwen-family",
+      "title": "Qwen 模型家族 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/kimi-family",
+      "file": "objects/kimi-family.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "kimi-family",
+      "title": "Kimi 模型家族 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/glm-family",
+      "file": "objects/glm-family.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "glm-family",
+      "title": "GLM 模型家族 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/minimax-models",
+      "file": "objects/minimax-models.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "minimax-models",
+      "title": "MiniMax M 系列 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/starcoder2",
+      "file": "objects/starcoder2.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "starcoder2",
+      "title": "StarCoder2 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/composer-model",
+      "file": "objects/composer-model.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "composer-model",
+      "title": "Composer 模型 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/gpt-rosalind",
+      "file": "objects/gpt-rosalind.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "gpt-rosalind",
+      "title": "GPT-Rosalind 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/mcp",
+      "file": "objects/mcp.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "mcp",
+      "title": "MCP 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/a2a",
+      "file": "objects/a2a.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "a2a",
+      "title": "A2A 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/agents-md",
+      "file": "objects/agents-md.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "agents-md",
+      "title": "AGENTS.md 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/skills",
+      "file": "objects/skills.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "skills",
+      "title": "Agent Skills 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/mhs",
+      "file": "objects/mhs.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "mhs",
+      "title": "Model Hardware Standard 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/context-engineering",
+      "file": "objects/context-engineering.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "context-engineering",
+      "title": "Context Engineering 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/harness",
+      "file": "objects/harness.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "harness",
+      "title": "Harness Engineering 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/loop-engineering",
+      "file": "objects/loop-engineering.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "loop-engineering",
+      "title": "Loop Engineering 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/spec-driven",
+      "file": "objects/spec-driven.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "spec-driven",
+      "title": "规格驱动开发 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/vibe-coding",
+      "file": "objects/vibe-coding.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "vibe-coding",
+      "title": "Vibe Coding 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/ralph",
+      "file": "objects/ralph.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "ralph",
+      "title": "Ralph 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/spec-kit",
+      "file": "objects/spec-kit.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "spec-kit",
+      "title": "Spec Kit 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/computer-use",
+      "file": "objects/computer-use.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "computer-use",
+      "title": "Computer Use 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/alpha-codium",
+      "file": "objects/alpha-codium.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "alpha-codium",
+      "title": "AlphaCodium 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/agentless",
+      "file": "objects/agentless.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "agentless",
+      "title": "Agentless 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/swe-agent",
+      "file": "objects/swe-agent.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "swe-agent",
+      "title": "SWE-agent 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/autocoderover",
+      "file": "objects/autocoderover.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "autocoderover",
+      "title": "AutoCodeRover 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/aider",
+      "file": "objects/aider.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "aider",
+      "title": "Aider 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/swe-bench",
+      "file": "objects/swe-bench.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "swe-bench",
+      "title": "SWE-bench Verified 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/livecodebench",
+      "file": "objects/livecodebench.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "livecodebench",
+      "title": "LiveCodeBench 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/osworld",
+      "file": "objects/osworld.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "osworld",
+      "title": "OSWorld 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/metr",
+      "file": "objects/metr.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "metr",
+      "title": "METR 研究 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/ai-scientist",
+      "file": "objects/ai-scientist.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "ai-scientist",
+      "title": "AI Scientist 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/alphaevolve",
+      "file": "objects/alphaevolve.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "alphaevolve",
+      "title": "AlphaEvolve 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/autoresearch",
+      "file": "objects/autoresearch.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "autoresearch",
+      "title": "autoresearch 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/dsh",
+      "file": "objects/dsh.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "dsh",
+      "title": "DeepSeek Harness 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/aaif",
+      "file": "objects/aaif.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "aaif",
+      "title": "AAIF 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/en/",
+      "file": "en/index.html",
+      "locale": "en",
+      "view": "overview",
+      "id": null,
+      "title": "Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/months/",
+      "file": "en/months/index.html",
+      "locale": "en",
+      "view": "all",
+      "id": null,
+      "title": "Monthly archive · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/",
+      "file": "en/objects/index.html",
+      "locale": "en",
+      "view": "catalog",
+      "id": null,
+      "title": "Object directory · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/months/2024-01",
+      "file": "en/months/2024-01.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2024-01",
+      "title": "2024-01 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2024-02",
+      "file": "en/months/2024-02.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2024-02",
+      "title": "2024-02 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2024-03",
+      "file": "en/months/2024-03.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2024-03",
+      "title": "2024-03 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2024-04",
+      "file": "en/months/2024-04.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2024-04",
+      "title": "2024-04 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2024-05",
+      "file": "en/months/2024-05.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2024-05",
+      "title": "2024-05 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2024-06",
+      "file": "en/months/2024-06.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2024-06",
+      "title": "2024-06 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2024-07",
+      "file": "en/months/2024-07.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2024-07",
+      "title": "2024-07 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2024-08",
+      "file": "en/months/2024-08.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2024-08",
+      "title": "2024-08 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2024-09",
+      "file": "en/months/2024-09.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2024-09",
+      "title": "2024-09 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2024-10",
+      "file": "en/months/2024-10.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2024-10",
+      "title": "2024-10 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2024-11",
+      "file": "en/months/2024-11.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2024-11",
+      "title": "2024-11 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2024-12",
+      "file": "en/months/2024-12.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2024-12",
+      "title": "2024-12 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2025-01",
+      "file": "en/months/2025-01.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2025-01",
+      "title": "2025-01 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2025-02",
+      "file": "en/months/2025-02.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2025-02",
+      "title": "2025-02 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2025-03",
+      "file": "en/months/2025-03.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2025-03",
+      "title": "2025-03 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2025-04",
+      "file": "en/months/2025-04.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2025-04",
+      "title": "2025-04 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2025-05",
+      "file": "en/months/2025-05.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2025-05",
+      "title": "2025-05 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2025-06",
+      "file": "en/months/2025-06.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2025-06",
+      "title": "2025-06 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2025-07",
+      "file": "en/months/2025-07.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2025-07",
+      "title": "2025-07 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2025-08",
+      "file": "en/months/2025-08.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2025-08",
+      "title": "2025-08 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2025-09",
+      "file": "en/months/2025-09.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2025-09",
+      "title": "2025-09 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2025-10",
+      "file": "en/months/2025-10.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2025-10",
+      "title": "2025-10 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2025-11",
+      "file": "en/months/2025-11.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2025-11",
+      "title": "2025-11 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2025-12",
+      "file": "en/months/2025-12.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2025-12",
+      "title": "2025-12 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2026-01",
+      "file": "en/months/2026-01.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2026-01",
+      "title": "2026-01 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2026-02",
+      "file": "en/months/2026-02.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2026-02",
+      "title": "2026-02 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2026-03",
+      "file": "en/months/2026-03.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2026-03",
+      "title": "2026-03 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2026-04",
+      "file": "en/months/2026-04.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2026-04",
+      "title": "2026-04 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2026-05",
+      "file": "en/months/2026-05.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2026-05",
+      "title": "2026-05 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2026-06",
+      "file": "en/months/2026-06.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2026-06",
+      "title": "2026-06 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2026-07",
+      "file": "en/months/2026-07.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2026-07",
+      "title": "2026-07 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2026-08",
+      "file": "en/months/2026-08.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2026-08",
+      "title": "2026-08 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/months/2026-09",
+      "file": "en/months/2026-09.html",
+      "locale": "en",
+      "view": "detail",
+      "id": "2026-09",
+      "title": "2026-09 · Coding Agent Monthly History"
+    },
+    {
+      "path": "/agents-history/en/objects/cursor",
+      "file": "en/objects/cursor.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "cursor",
+      "title": "Cursor Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/copilot",
+      "file": "en/objects/copilot.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "copilot",
+      "title": "GitHub Copilot Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/claude-code",
+      "file": "en/objects/claude-code.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "claude-code",
+      "title": "Claude Code Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/codex",
+      "file": "en/objects/codex.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "codex",
+      "title": "Codex Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/devin",
+      "file": "en/objects/devin.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "devin",
+      "title": "Devin Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/openhands",
+      "file": "en/objects/openhands.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "openhands",
+      "title": "OpenHands Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/cline",
+      "file": "en/objects/cline.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "cline",
+      "title": "Cline Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/windsurf",
+      "file": "en/objects/windsurf.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "windsurf",
+      "title": "Windsurf Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/replit-agent",
+      "file": "en/objects/replit-agent.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "replit-agent",
+      "title": "Replit Agent Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/jules",
+      "file": "en/objects/jules.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "jules",
+      "title": "Jules Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/bolt",
+      "file": "en/objects/bolt.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "bolt",
+      "title": "Bolt.new Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/lovable",
+      "file": "en/objects/lovable.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "lovable",
+      "title": "Lovable Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/trae",
+      "file": "en/objects/trae.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "trae",
+      "title": "TRAE Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/kiro",
+      "file": "en/objects/kiro.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "kiro",
+      "title": "Kiro Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/goose",
+      "file": "en/objects/goose.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "goose",
+      "title": "goose Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/gemini-cli",
+      "file": "en/objects/gemini-cli.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "gemini-cli",
+      "title": "Gemini CLI Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/qwen-code",
+      "file": "en/objects/qwen-code.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "qwen-code",
+      "title": "Qwen Code Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/antigravity",
+      "file": "en/objects/antigravity.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "antigravity",
+      "title": "Antigravity Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/codebuddy",
+      "file": "en/objects/codebuddy.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "codebuddy",
+      "title": "CodeBuddy Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/amp",
+      "file": "en/objects/amp.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "amp",
+      "title": "Amp Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/agent-hq",
+      "file": "en/objects/agent-hq.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "agent-hq",
+      "title": "Agent HQ Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/chatgpt-canvas",
+      "file": "en/objects/chatgpt-canvas.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "chatgpt-canvas",
+      "title": "ChatGPT canvas Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/artifacts",
+      "file": "en/objects/artifacts.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "artifacts",
+      "title": "Claude Artifacts Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/openclaw",
+      "file": "en/objects/openclaw.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "openclaw",
+      "title": "OpenClaw Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/cowork",
+      "file": "en/objects/cowork.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "cowork",
+      "title": "Cowork Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/workbuddy",
+      "file": "en/objects/workbuddy.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "workbuddy",
+      "title": "WorkBuddy Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/doubao-work",
+      "file": "en/objects/doubao-work.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "doubao-work",
+      "title": "Doubao Work Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/feishu",
+      "file": "en/objects/feishu.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "feishu",
+      "title": "Feishu Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/chatgpt-work",
+      "file": "en/objects/chatgpt-work.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "chatgpt-work",
+      "title": "ChatGPT Work Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/kimi-code",
+      "file": "en/objects/kimi-code.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "kimi-code",
+      "title": "Kimi Code Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/claude-managed",
+      "file": "en/objects/claude-managed.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "claude-managed",
+      "title": "Claude Managed Agents Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/google-managed",
+      "file": "en/objects/google-managed.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "google-managed",
+      "title": "Google Managed Agents Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/responses-api",
+      "file": "en/objects/responses-api.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "responses-api",
+      "title": "Responses API / Agents SDK Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/claude-agent-sdk",
+      "file": "en/objects/claude-agent-sdk.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "claude-agent-sdk",
+      "title": "Claude Agent SDK Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/gpt-family",
+      "file": "en/objects/gpt-family.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "gpt-family",
+      "title": "GPT/OpenAI universal model Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/codex-models",
+      "file": "en/objects/codex-models.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "codex-models",
+      "title": "Codex special model (2025-) Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/claude-family",
+      "file": "en/objects/claude-family.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "claude-family",
+      "title": "Claude model family Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/gemini-family",
+      "file": "en/objects/gemini-family.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "gemini-family",
+      "title": "Gemini model family Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/deepseek-family",
+      "file": "en/objects/deepseek-family.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "deepseek-family",
+      "title": "DeepSeek model family Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/qwen-family",
+      "file": "en/objects/qwen-family.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "qwen-family",
+      "title": "Qwen model family Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/kimi-family",
+      "file": "en/objects/kimi-family.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "kimi-family",
+      "title": "Kimi model family Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/glm-family",
+      "file": "en/objects/glm-family.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "glm-family",
+      "title": "GLM model family Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/minimax-models",
+      "file": "en/objects/minimax-models.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "minimax-models",
+      "title": "MiniMax M Series Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/starcoder2",
+      "file": "en/objects/starcoder2.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "starcoder2",
+      "title": "StarCoder2 Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/composer-model",
+      "file": "en/objects/composer-model.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "composer-model",
+      "title": "Composer model Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/gpt-rosalind",
+      "file": "en/objects/gpt-rosalind.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "gpt-rosalind",
+      "title": "GPT-Rosalind Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/mcp",
+      "file": "en/objects/mcp.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "mcp",
+      "title": "MCP Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/a2a",
+      "file": "en/objects/a2a.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "a2a",
+      "title": "A2A Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/agents-md",
+      "file": "en/objects/agents-md.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "agents-md",
+      "title": "AGENTS.md Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/skills",
+      "file": "en/objects/skills.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "skills",
+      "title": "Agent Skills Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/mhs",
+      "file": "en/objects/mhs.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "mhs",
+      "title": "Model Hardware Standard Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/context-engineering",
+      "file": "en/objects/context-engineering.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "context-engineering",
+      "title": "Context Engineering Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/harness",
+      "file": "en/objects/harness.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "harness",
+      "title": "Harness Engineering Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/loop-engineering",
+      "file": "en/objects/loop-engineering.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "loop-engineering",
+      "title": "Loop Engineering Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/spec-driven",
+      "file": "en/objects/spec-driven.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "spec-driven",
+      "title": "Specification-driven development Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/vibe-coding",
+      "file": "en/objects/vibe-coding.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "vibe-coding",
+      "title": "Vibe Coding Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/ralph",
+      "file": "en/objects/ralph.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "ralph",
+      "title": "Ralph Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/spec-kit",
+      "file": "en/objects/spec-kit.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "spec-kit",
+      "title": "Spec Kit Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/computer-use",
+      "file": "en/objects/computer-use.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "computer-use",
+      "title": "Computer Use Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/alpha-codium",
+      "file": "en/objects/alpha-codium.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "alpha-codium",
+      "title": "AlphaCodium Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/agentless",
+      "file": "en/objects/agentless.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "agentless",
+      "title": "Agentless Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/swe-agent",
+      "file": "en/objects/swe-agent.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "swe-agent",
+      "title": "SWE-agent Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/autocoderover",
+      "file": "en/objects/autocoderover.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "autocoderover",
+      "title": "AutoCodeRover Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/aider",
+      "file": "en/objects/aider.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "aider",
+      "title": "Aider Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/swe-bench",
+      "file": "en/objects/swe-bench.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "swe-bench",
+      "title": "SWE-bench Verified Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/livecodebench",
+      "file": "en/objects/livecodebench.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "livecodebench",
+      "title": "LiveCodeBench Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/osworld",
+      "file": "en/objects/osworld.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "osworld",
+      "title": "OSWorld Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/metr",
+      "file": "en/objects/metr.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "metr",
+      "title": "METR research Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/ai-scientist",
+      "file": "en/objects/ai-scientist.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "ai-scientist",
+      "title": "AI Scientist Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/alphaevolve",
+      "file": "en/objects/alphaevolve.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "alphaevolve",
+      "title": "AlphaEvolve Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/autoresearch",
+      "file": "en/objects/autoresearch.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "autoresearch",
+      "title": "autoresearch Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/dsh",
+      "file": "en/objects/dsh.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "dsh",
+      "title": "DeepSeek Harness Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/aaif",
+      "file": "en/objects/aaif.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "aaif",
+      "title": "AAIF Timeline · Coding Agent History"
+    }
+  ],
+  "files": [
+    "assets/ribbon-95cacacefd75.png",
+    "assets/style-97b801fa7b17.css",
+    "assets/data-zh-763d04c7b257.js",
+    "assets/data-en-2374983bbece.js",
+    "assets/app-zh-350e886ad045.js",
+    "assets/app-en-dd9b3544d996.js",
+    "index.html",
+    "months/index.html",
+    "objects/index.html",
+    "months/2024-01.html",
+    "months/2024-02.html",
+    "months/2024-03.html",
+    "months/2024-04.html",
+    "months/2024-05.html",
+    "months/2024-06.html",
+    "months/2024-07.html",
+    "months/2024-08.html",
+    "months/2024-09.html",
+    "months/2024-10.html",
+    "months/2024-11.html",
+    "months/2024-12.html",
+    "months/2025-01.html",
+    "months/2025-02.html",
+    "months/2025-03.html",
+    "months/2025-04.html",
+    "months/2025-05.html",
+    "months/2025-06.html",
+    "months/2025-07.html",
+    "months/2025-08.html",
+    "months/2025-09.html",
+    "months/2025-10.html",
+    "months/2025-11.html",
+    "months/2025-12.html",
+    "months/2026-01.html",
+    "months/2026-02.html",
+    "months/2026-03.html",
+    "months/2026-04.html",
+    "months/2026-05.html",
+    "months/2026-06.html",
+    "months/2026-07.html",
+    "months/2026-08.html",
+    "months/2026-09.html",
+    "objects/cursor.html",
+    "objects/copilot.html",
+    "objects/claude-code.html",
+    "objects/codex.html",
+    "objects/devin.html",
+    "objects/openhands.html",
+    "objects/cline.html",
+    "objects/windsurf.html",
+    "objects/replit-agent.html",
+    "objects/jules.html",
+    "objects/bolt.html",
+    "objects/lovable.html",
+    "objects/trae.html",
+    "objects/kiro.html",
+    "objects/goose.html",
+    "objects/gemini-cli.html",
+    "objects/qwen-code.html",
+    "objects/antigravity.html",
+    "objects/codebuddy.html",
+    "objects/amp.html",
+    "objects/agent-hq.html",
+    "objects/chatgpt-canvas.html",
+    "objects/artifacts.html",
+    "objects/openclaw.html",
+    "objects/cowork.html",
+    "objects/workbuddy.html",
+    "objects/doubao-work.html",
+    "objects/feishu.html",
+    "objects/chatgpt-work.html",
+    "objects/kimi-code.html",
+    "objects/claude-managed.html",
+    "objects/google-managed.html",
+    "objects/responses-api.html",
+    "objects/claude-agent-sdk.html",
+    "objects/gpt-family.html",
+    "objects/codex-models.html",
+    "objects/claude-family.html",
+    "objects/gemini-family.html",
+    "objects/deepseek-family.html",
+    "objects/qwen-family.html",
+    "objects/kimi-family.html",
+    "objects/glm-family.html",
+    "objects/minimax-models.html",
+    "objects/starcoder2.html",
+    "objects/composer-model.html",
+    "objects/gpt-rosalind.html",
+    "objects/mcp.html",
+    "objects/a2a.html",
+    "objects/agents-md.html",
+    "objects/skills.html",
+    "objects/mhs.html",
+    "objects/context-engineering.html",
+    "objects/harness.html",
+    "objects/loop-engineering.html",
+    "objects/spec-driven.html",
+    "objects/vibe-coding.html",
+    "objects/ralph.html",
+    "objects/spec-kit.html",
+    "objects/computer-use.html",
+    "objects/alpha-codium.html",
+    "objects/agentless.html",
+    "objects/swe-agent.html",
+    "objects/autocoderover.html",
+    "objects/aider.html",
+    "objects/swe-bench.html",
+    "objects/livecodebench.html",
+    "objects/osworld.html",
+    "objects/metr.html",
+    "objects/ai-scientist.html",
+    "objects/alphaevolve.html",
+    "objects/autoresearch.html",
+    "objects/dsh.html",
+    "objects/aaif.html",
+    "en/index.html",
+    "en/months/index.html",
+    "en/objects/index.html",
+    "en/months/2024-01.html",
+    "en/months/2024-02.html",
+    "en/months/2024-03.html",
+    "en/months/2024-04.html",
+    "en/months/2024-05.html",
+    "en/months/2024-06.html",
+    "en/months/2024-07.html",
+    "en/months/2024-08.html",
+    "en/months/2024-09.html",
+    "en/months/2024-10.html",
+    "en/months/2024-11.html",
+    "en/months/2024-12.html",
+    "en/months/2025-01.html",
+    "en/months/2025-02.html",
+    "en/months/2025-03.html",
+    "en/months/2025-04.html",
+    "en/months/2025-05.html",
+    "en/months/2025-06.html",
+    "en/months/2025-07.html",
+    "en/months/2025-08.html",
+    "en/months/2025-09.html",
+    "en/months/2025-10.html",
+    "en/months/2025-11.html",
+    "en/months/2025-12.html",
+    "en/months/2026-01.html",
+    "en/months/2026-02.html",
+    "en/months/2026-03.html",
+    "en/months/2026-04.html",
+    "en/months/2026-05.html",
+    "en/months/2026-06.html",
+    "en/months/2026-07.html",
+    "en/months/2026-08.html",
+    "en/months/2026-09.html",
+    "en/objects/cursor.html",
+    "en/objects/copilot.html",
+    "en/objects/claude-code.html",
+    "en/objects/codex.html",
+    "en/objects/devin.html",
+    "en/objects/openhands.html",
+    "en/objects/cline.html",
+    "en/objects/windsurf.html",
+    "en/objects/replit-agent.html",
+    "en/objects/jules.html",
+    "en/objects/bolt.html",
+    "en/objects/lovable.html",
+    "en/objects/trae.html",
+    "en/objects/kiro.html",
+    "en/objects/goose.html",
+    "en/objects/gemini-cli.html",
+    "en/objects/qwen-code.html",
+    "en/objects/antigravity.html",
+    "en/objects/codebuddy.html",
+    "en/objects/amp.html",
+    "en/objects/agent-hq.html",
+    "en/objects/chatgpt-canvas.html",
+    "en/objects/artifacts.html",
+    "en/objects/openclaw.html",
+    "en/objects/cowork.html",
+    "en/objects/workbuddy.html",
+    "en/objects/doubao-work.html",
+    "en/objects/feishu.html",
+    "en/objects/chatgpt-work.html",
+    "en/objects/kimi-code.html",
+    "en/objects/claude-managed.html",
+    "en/objects/google-managed.html",
+    "en/objects/responses-api.html",
+    "en/objects/claude-agent-sdk.html",
+    "en/objects/gpt-family.html",
+    "en/objects/codex-models.html",
+    "en/objects/claude-family.html",
+    "en/objects/gemini-family.html",
+    "en/objects/deepseek-family.html",
+    "en/objects/qwen-family.html",
+    "en/objects/kimi-family.html",
+    "en/objects/glm-family.html",
+    "en/objects/minimax-models.html",
+    "en/objects/starcoder2.html",
+    "en/objects/composer-model.html",
+    "en/objects/gpt-rosalind.html",
+    "en/objects/mcp.html",
+    "en/objects/a2a.html",
+    "en/objects/agents-md.html",
+    "en/objects/skills.html",
+    "en/objects/mhs.html",
+    "en/objects/context-engineering.html",
+    "en/objects/harness.html",
+    "en/objects/loop-engineering.html",
+    "en/objects/spec-driven.html",
+    "en/objects/vibe-coding.html",
+    "en/objects/ralph.html",
+    "en/objects/spec-kit.html",
+    "en/objects/computer-use.html",
+    "en/objects/alpha-codium.html",
+    "en/objects/agentless.html",
+    "en/objects/swe-agent.html",
+    "en/objects/autocoderover.html",
+    "en/objects/aider.html",
+    "en/objects/swe-bench.html",
+    "en/objects/livecodebench.html",
+    "en/objects/osworld.html",
+    "en/objects/metr.html",
+    "en/objects/ai-scientist.html",
+    "en/objects/alphaevolve.html",
+    "en/objects/autoresearch.html",
+    "en/objects/dsh.html",
+    "en/objects/aaif.html",
+    "sitemap.xml"
+  ]
+}
