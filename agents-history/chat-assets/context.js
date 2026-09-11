@@ -1,0 +1,20 @@
+(() => {
+'use strict';
+if(window.ChatReadingContext)return;
+const $=id=>document.getElementById(id);if(!$('composer'))return;
+const box=document.createElement('div');box.id='chat-reading-context';const label=document.createElement('strong');label.id='chat-reading-label';const hint=document.createElement('small');hint.textContent='发送时自动带入相关文字片段，无需手动添加。';box.append(label,hint);$('composer').prepend(box);
+const pageList=document.createElement('div');pageList.id='chat-used-pages';$('evidence').insertBefore(pageList,$('evidence-list'));
+$('preview-evidence').textContent='查看将发送的资料';$('question').placeholder='直接提问，例如：它最近发生了哪些变化？';document.querySelector('#composer .composer-note').textContent='直接发送即可。查看资料只是检查，不是添加步骤。';
+let mode='none',lastSignature='',pending='prepared',latest=[];
+function get(){const path=location.pathname,m=path.match(/\/months\/(\d{4}-\d{2})$/);let name;if(/\/objects\/[^/]+$/.test(path))name=(document.querySelector('.entity-heading h1')?.textContent.trim()||path.split('/').pop())+' · 对象历史';else if(m)name=m[1]+' · 月份历史';else if(/\/objects\/$/.test(path))name='对象目录';else if(/\/months\/$/.test(path))name='月份目录';else name='演化长卷'+(document.body.dataset.month?' · 当前显示 '+document.body.dataset.month:'');return {path,label:name};}
+function show(sources,phase='used'){mode=sources.length?phase:'none';latest=sources;const summary=$('evidence').querySelector('summary'),count=$('evidence-count');for(const node of [...summary.childNodes])if(node!==count)node.remove();const titles={none:'资料随问题自动带入',prepared:'将发送的资料（预览）',request:'本次请求的资料',used:'本次使用的资料',previous:'上次回答使用的资料'};summary.prepend(document.createTextNode(titles[mode]+' '));pageList.replaceChildren();const unique=new Map();for(const s of sources){if(unique.has(s.url))continue;unique.set(s.url,s);const a=document.createElement('a');a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';const month=s.url.match(/\/months\/(\d{4}-\d{2})/);a.textContent=month?month[1]:(s.title||s.url);pageList.append(a);}if(!sources.length)count.textContent='发送时自动选取';}
+function invalidate(){if(mode==='used'){show(latest,'previous');return;}if(mode!=='prepared')return;if(window.__chatReadingAware){window.dispatchEvent(new Event('chat-preview-invalidated'));}else{$('evidence-list').replaceChildren();show([]);}}
+function update(){const c=get(),signature=c.path+'|'+c.label;label.textContent='当前阅读：'+c.label;box.title=c.label;if(lastSignature&&signature!==lastSignature)invalidate();lastSignature=signature;}
+$('question').addEventListener('input',invalidate);$('scope').addEventListener('change',invalidate);
+new MutationObserver(update).observe(document.body,{attributes:true,attributeFilter:['data-month','data-view']});new MutationObserver(update).observe(document.querySelector('title'),{childList:true});window.addEventListener('popstate',update);
+// Compatibility for an already-open tab: improve labels without clearing its key/session.
+$('preview-evidence').addEventListener('click',()=>{pending='prepared';},true);$('composer').addEventListener('submit',()=>{pending='request';},true);
+new MutationObserver(()=>{if(window.__chatReadingAware)return;const sources=[...$('evidence-list').querySelectorAll('a')].map(a=>({url:a.getAttribute('href'),title:a.textContent.replace(/^S\d+ · /,'').split(' / ')[0]}));show(sources,pending);}).observe($('evidence-list'),{childList:true});
+new MutationObserver(()=>{if(window.__chatReadingAware||pending!=='request')return;const answer=$('messages').lastElementChild;if(answer?.classList.contains('assistant')&&!answer.classList.contains('error')){const text=answer.querySelector('.message-text')?.textContent;if(text&&text!=='正在读取资料…')show(latest,'used');}}).observe($('messages'),{childList:true,subtree:true,characterData:true});
+window.ChatReadingContext={get,show,update};update();const existing=[...$('evidence-list').querySelectorAll('a')].map(a=>({url:a.getAttribute('href'),title:a.textContent.replace(/^S\d+ · /,'').split(' / ')[0]}));show(existing,document.querySelector('#messages .assistant:not(.error)')?'used':'prepared');
+})();

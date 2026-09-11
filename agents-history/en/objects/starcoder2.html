@@ -28,7 +28,7 @@ if(location.hostname==='daming.ai'){
  const tag=document.createElement('script');tag.async=true;tag.src='https://www.googletagmanager.com/gtag/js?id=G-K1TQ51VBZB';document.head.append(tag);
 }
 </script>
-</head>
+<!--agents-history-addon-start--><link rel="stylesheet" href="/agents-history/chat-assets/overlay.css"><link rel="stylesheet" href="/agents-history/chat-assets/markdown.css"><script defer src="/agents-history/chat-assets/marked.umd.js"></script><script defer src="/agents-history/chat-assets/markdown.js"></script><link rel="stylesheet" href="/agents-history/chat-assets/context.css"><script defer src="/agents-history/chat-assets/context.js"></script><link rel="stylesheet" href="/agents-history/chat-assets/market.css"><script defer src="/agents-history/chat-assets/market.js"></script><script defer src="/agents-history/chat-assets/overlay.js"></script><!--agents-history-addon-end--></head>
 <body>
 <div class="ambient" aria-hidden="true"></div>
 <header class="masthead">
@@ -55,4 +55,16 @@ if(location.hostname==='daming.ai'){
 
 <script id="chronicle-data" defer src="/agents-history/assets/data-en-2374983bbece.js"></script>
 <script defer src="/agents-history/assets/app-en-dd9b3544d996.js"></script>
-</body></html>
+<!--agents-history-addon-start--><button id="chat-launch" aria-expanded="false" aria-controls="chat">✦ 与历史对话</button>
+<aside id="chat" hidden aria-label="与历史对话"><header class="chat-head"><div><small>READ · COMPARE · EXPLORE</small><h2>与历史对话</h2></div><button id="chat-close" aria-label="收起聊天">×</button></header>
+<div class="chat-tools"><select id="conversations" aria-label="选择对话"></select><button id="new-chat">＋ 新对话</button><button id="settings-button" aria-label="连接设置">⚙</button></div>
+<details id="settings" open><summary>连接你的模型 <span id="connection-state">尚未配置</span></summary><div class="settings-grid">
+<label>Base URL<input id="base-url" type="url" value="https://api.deepseek.com" placeholder="https://api.example.com/v1" autocomplete="off" spellcheck="false"></label>
+<label>模型名称<input id="model" value="deepseek-v4-flash" placeholder="填写服务商提供的模型 ID" autocomplete="off" spellcheck="false"></label>
+<label>API key<input id="api-key" type="password" placeholder="仅在此标签页中使用" autocomplete="off" spellcheck="false"></label>
+<div class="settings-actions"><button id="apply" class="primary">应用配置</button><button id="clear-key">清空 key</button></div><p>浏览器直接连接你填写的服务。key 不保存到文件或浏览器存储；刷新后需重新填写。发送会使用你的 API 额度。</p>
+</div></details>
+<div id="messages" role="log" aria-live="polite"></div>
+<details id="evidence"><summary>本次参考资料 <span id="evidence-count">尚未选择</span></summary><div id="evidence-list"></div></details>
+<form id="composer"><label class="scope">阅读范围<select id="scope"><option value="related">当前页与相关页面</option><option value="current">仅当前页面</option></select></label><textarea id="question" rows="3" placeholder="比如：Cursor 的自主能力是怎样一步步变化的？" aria-label="你的问题"></textarea><div class="send-row"><button type="button" id="preview-evidence">预览资料</button><span id="status" role="status"></span><button type="button" id="stop" hidden>停止</button><button type="submit" id="send" class="primary">发送 ↑</button></div><p class="composer-note">只发送选中的页面文字与当前会话。不会发送整库文件。</p></form></aside>
+<!--agents-history-addon-end--></body></html>
