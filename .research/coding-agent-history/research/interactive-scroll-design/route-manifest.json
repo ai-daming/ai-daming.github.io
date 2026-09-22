@@ -873,6 +873,22 @@
       "title": "AAIF 历史脉络 · Coding Agent 演化史"
     },
     {
+      "path": "/agents-history/objects/jev",
+      "file": "objects/jev.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "jev",
+      "title": "Jev 历史脉络 · Coding Agent 演化史"
+    },
+    {
+      "path": "/agents-history/objects/zcode",
+      "file": "objects/zcode.html",
+      "locale": "zh",
+      "view": "entity",
+      "id": "zcode",
+      "title": "ZCode 历史脉络 · Coding Agent 演化史"
+    },
+    {
       "path": "/agents-history/en/",
       "file": "en/index.html",
       "locale": "en",
@@ -1743,15 +1759,31 @@
       "view": "entity",
       "id": "aaif",
       "title": "AAIF Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/jev",
+      "file": "en/objects/jev.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "jev",
+      "title": "Jev Timeline · Coding Agent History"
+    },
+    {
+      "path": "/agents-history/en/objects/zcode",
+      "file": "en/objects/zcode.html",
+      "locale": "en",
+      "view": "entity",
+      "id": "zcode",
+      "title": "ZCode Timeline · Coding Agent History"
     }
   ],
   "files": [
     "assets/ribbon-95cacacefd75.png",
     "assets/style-97b801fa7b17.css",
-    "assets/data-zh-763d04c7b257.js",
-    "assets/data-en-2374983bbece.js",
-    "assets/app-zh-350e886ad045.js",
-    "assets/app-en-dd9b3544d996.js",
+    "assets/data-zh-7d9c4366ff43.js",
+    "assets/data-en-612b7f591d2f.js",
+    "assets/app-zh-72d56327600e.js",
+    "assets/app-en-f35627852ef8.js",
     "index.html",
     "months/index.html",
     "objects/index.html",
@@ -1861,6 +1893,8 @@
     "objects/autoresearch.html",
     "objects/dsh.html",
     "objects/aaif.html",
+    "objects/jev.html",
+    "objects/zcode.html",
     "en/index.html",
     "en/months/index.html",
     "en/objects/index.html",
@@ -1970,6 +2004,8 @@
     "en/objects/autoresearch.html",
     "en/objects/dsh.html",
     "en/objects/aaif.html",
+    "en/objects/jev.html",
+    "en/objects/zcode.html",
     "sitemap.xml"
   ]
 }

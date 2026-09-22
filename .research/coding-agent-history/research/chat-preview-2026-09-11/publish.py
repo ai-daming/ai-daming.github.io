@@ -43,7 +43,7 @@ class Links(HTMLParser):
   if tag in ('script','link'):
    u=attrs.get('src') or attrs.get('href')
    if u and u.startswith('/'):self.urls.append(u)
-assert len(registry['routes'])==218 and len(readers)==218
+assert len(registry['routes'])==222 and len(readers)==222
 for rel,raw in files.items():
  assert not any(x in raw for x in [b'/Users/',b'.agent-reach',b'.wxview',b'yinwm',b'local-context-test-key',b'local-preview-test-key',b'__contextTest',b'__chatTest']),rel
  if rel.endswith(('.html','.js','.css')):
@@ -68,6 +68,6 @@ previous=DEPLOY/'assets.previous'
 if previous.exists():shutil.rmtree(previous)
 if (DEPLOY/'assets').exists():(DEPLOY/'assets').rename(previous)
 stage.rename(DEPLOY/'assets')
-result={'worker':'daming-ai-agents-history','files':manifest,'routes':218,'readers':readers,'private_assets_included':False}
+result={'worker':'daming-ai-agents-history','files':manifest,'routes':222,'readers':readers,'private_assets_included':False}
 (DEPLOY/'manifest.json').write_text(json.dumps(result,indent=2));(ROOT/'release-manifest.json').write_text(json.dumps(result,indent=2))
 print('Validated and staged',len(files),'public files;',len(readers),'noindex readers;',round(sum(len(v) for v in files.values())/1000000,1),'MB')
